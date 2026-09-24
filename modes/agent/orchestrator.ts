@@ -6,7 +6,7 @@ import { ToolExecutor } from "./tool-executor";
 import { createAgentTools } from "./agent-tools";
 import { stepCountIs, ToolLoopAgent } from "ai";
 import { getAgentModel } from "../../ai";
-import { renderTerminalMarkdown } from "../../tui/terminal-md";
+import { renderTerminalMarkdown } from "../../tui/termianl-md";
 import { runApprovalFlow } from "./approval";
 
 export async function runAgentMode() {
